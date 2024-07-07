@@ -1,0 +1,23 @@
+.footer{
+    background-color: #000000;
+    height: 80px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .left{
+    height: 100%;
+    width: 80px;
+}
+
+.footer .center{
+    height: 100%;
+    width: 80px;
+}
+
+.footer .right{
+    height: 100%;
+    width: 80px
+}

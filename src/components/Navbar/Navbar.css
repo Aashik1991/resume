@@ -1,0 +1,23 @@
+.navbar{
+    height: 80px;
+    width: 85%;
+    max-width: 85%;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .left{
+    height: 100%;
+    background-color: red;
+    width: 80px;
+}
+
+.navbar .right{
+    height: 100%;
+    background-color: red;
+    width: 80px
+}
