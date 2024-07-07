@@ -16,19 +16,59 @@
     font-size: 2rem;
     margin: 0;
 }
+
 .first-section .center h1,
 .first-section .center h2{
     text-align: center;
 }
 
-.second-section{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .second-section .first,
 .second-section .second{
     max-width: 50%;
+}
+
+.second-section > * {
+    margin: 15vh auto;
+}
+
+.second-section .first h3,
+.second-section .second h3{
+    font-size: 2rem;
+}
+
+.second-section .third{
+    padding: 0 15vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second-section .third .cards{
+    height: 450px;
+    display: flex;
+    gap: 15vh;
+}
+.cards .card{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.second-section .third .btns{
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.third .btns .btn{
+    height: 50px;
+    width: 200px;
+}
+
+.third .btns .btn button{
+    background-color: rgb(194, 192, 192);
+    border: none;
+    height: 100%;
+    width: 100%;
 }

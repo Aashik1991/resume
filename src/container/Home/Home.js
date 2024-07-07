@@ -5,8 +5,8 @@ import Footer from '../../components/Footer/Footer';
 const Home = () => {
   return (
     <main>
+      <Navbar />
       <section className='first-section'>
-        <Navbar />
         <div className="center">
           <h1>ASHIK ANSARI</h1>
           <h2>WEB - DEVELOPER</h2>
@@ -30,12 +30,12 @@ const Home = () => {
             <div className="card"></div>
           </div>
           <div className="btns">
-            <div className="btn">All Projects</div>
-            <div className="btn">Contact Me</div>
+            <div className="btn"><button>All Projects</button></div>
+            <div className="btn"><button>Contact Me</button></div>
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </main>
   )
 }
