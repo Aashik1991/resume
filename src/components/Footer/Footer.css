@@ -1,4 +1,5 @@
 .footer{
+    width: 100vw;
     background-color: #000000;
     height: 50vh;
     color: white;
@@ -9,18 +10,25 @@
 .footer .navigation{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 85%;
     margin: 0 auto;
+    gap: 7vw;
 }
 
 .footer .navigation > *{
-    width: 100%;
+    width: 200px;
+}
+
+.footer .navigation .left{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
 }
 
 .footer .navigation .left a{
     text-decoration: none;
     color: white;
-    margin-right: 25px;
     font-size: 1rem;
 }
 
@@ -41,4 +49,18 @@
     height: 80px;
     width: 80px;
     background-color: red;
+}
+
+@media screen and (max-width:600px) {
+    .footer .navigation{
+        justify-content: center;
+    }
+
+    .footer .navigation .center .email{
+        margin-bottom: 15px;
+    }
+
+    .footer .navigation .right{
+        justify-content: center;
+    }
 }

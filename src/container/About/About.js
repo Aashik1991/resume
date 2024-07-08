@@ -35,10 +35,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section>
-        <Footer />
-
-      </section>
+      <Footer />
     </main>
   )
 }

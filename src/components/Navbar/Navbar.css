@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     height: 80px;
     width: 85%;
     position: absolute;
@@ -9,14 +9,55 @@
     justify-content: space-between;
 }
 
-.navbar .left{
+.navbar .left {
     height: 100%;
-    background-color: red;
     width: 80px;
 }
 
-.navbar .right{
+.navbar .left .logo{
     height: 100%;
-    background-color: red;
-    width: 80px
+    width: 100%;
+}
+
+.navbar .left .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar .left .logo:hover{
+cursor: pointer;
+}
+
+.navbar .right {
+    height: 100%;
+    width: 80px;
+}
+
+.navbar .right .menu-bar {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar .right .menu-bar i {
+    font-size: 3rem;
+    color: white;
+}
+
+.navbar .right .menu-bar i:hover {
+    font-size: 3.1rem;
+    cursor: pointer;
+}
+
+@media screen and( max-width: 480px) {
+    .navbar{
+        height: 60px;
+    }
+    .navbar .left {
+        width: 60px;
+    }
+    .navbar .right {
+        width: 60px;
+    }
+ 
 }

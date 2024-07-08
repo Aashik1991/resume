@@ -1,5 +1,6 @@
 .first-section {
     height: 100vh;
+    width: 100%;
     background-color: #000000;
     color: white;
     display: flex;
@@ -28,7 +29,7 @@
 }
 
 .second-section > * {
-    margin: 15vh auto;
+    margin: 7vw auto;
 }
 
 .second-section .first h3,
@@ -37,22 +38,22 @@
 }
 
 .second-section .third{
-    padding: 0 15vh;
-    height: 90vh;
     display: flex;
+    width: 85%;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 7vw;
 }
 
 .second-section .third .cards{
-    height: 450px;
     display: flex;
-    gap: 15vh;
+    justify-content: center;
+    flex-wrap: wrap;    
+    gap: 7vw;
 }
 .cards .card{
-    height: 100%;
-    width: 100%;
-    background-color: black;
+    height: 350px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
 }
 
 .second-section .third .btns{
