@@ -38,7 +38,7 @@
 }
 
 .second-section .first p,
-.second-section .second p{
+.second-section .second .grid{
     text-align: justify;
 }
 
@@ -55,6 +55,7 @@
     flex-wrap: wrap;    
     gap: 7vw;
 }
+
 .cards .card{
     height: 350px;
     width: 250px;
@@ -77,4 +78,16 @@
     border: none;
     height: 100%;
     width: 100%;
+}
+
+@media screen and (max-width:480px) {
+    .second-section .first,
+    .second-section .second{
+        max-width: 85%;
+    }
+
+    .cards .card{
+        width: 100%;
+        height: 550px;
+    }
 }
