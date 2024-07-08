@@ -37,6 +37,11 @@
     font-size: 2rem;
 }
 
+.second-section .first p,
+.second-section .second p{
+    text-align: justify;
+}
+
 .second-section .third{
     display: flex;
     width: 85%;

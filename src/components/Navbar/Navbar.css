@@ -1,5 +1,4 @@
 .navbar {
-    height: 80px;
     width: 85%;
     position: absolute;
     top: 60px;
@@ -9,33 +8,23 @@
     justify-content: space-between;
 }
 
-.navbar .left {
-    height: 100%;
+.navbar .left .logo {
     width: 80px;
-}
-
-.navbar .left .logo{
-    height: 100%;
-    width: 100%;
+    height: 80px;
 }
 
 .navbar .left .logo img{
-    height: 100%;
     width: 100%;
-}
-
-.navbar .left .logo:hover{
-cursor: pointer;
-}
-
-.navbar .right {
     height: 100%;
-    width: 80px;
+}
+
+.navbar .left .logo:hover {
+    cursor: pointer;
 }
 
 .navbar .right .menu-bar {
-    height: 100%;
-    width: 100%;
+    height: 80px;
+    width: 80px;
     text-align: center;
 }
 
@@ -49,15 +38,17 @@ cursor: pointer;
     cursor: pointer;
 }
 
-@media screen and( max-width: 480px) {
-    .navbar{
+@media screen and (max-width: 480px) {
+    .navbar .left .logo {
         height: 60px;
-    }
-    .navbar .left {
         width: 60px;
     }
-    .navbar .right {
+
+    .navbar .right .menu-bar {
         width: 60px;
     }
- 
+
+    .navbar .right .menu-bar i {
+        font-size: 2.5rem;
+    }
 }

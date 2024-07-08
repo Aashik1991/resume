@@ -48,10 +48,22 @@
 .footer .navigation .right .logo{
     height: 80px;
     width: 80px;
-    background-color: red;
 }
 
-@media screen and (max-width:600px) {
+.footer .navigation .right .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:480px) {
+    .footer .navigation > *{
+        width: 100%;
+    }
+
+    .footer .navigation .left{
+        justify-content: center;
+    }
+
     .footer .navigation{
         justify-content: center;
     }
@@ -62,5 +74,10 @@
 
     .footer .navigation .right{
         justify-content: center;
+    }
+
+    .footer .navigation .right .logo{
+        height: 60px;
+        width: 60px;
     }
 }

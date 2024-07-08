@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./Footer.css"
 import logo from "../../app-logo.png";
 
@@ -8,9 +9,9 @@ const Footer = () => {
     <footer className='footer'>
       <div className="navigation">
         <div className="left">
-          <a href="#">Projects</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <Link to="/projects">Projects</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </div>
         <div className="center">
           <div className="email">9779540915aashik@gmail.com</div>
@@ -18,7 +19,9 @@ const Footer = () => {
         </div>
         <div className="right">
           <div className="logo">
-            <img src={logo} alt="App-logo" />
+            <Link to="/">
+              <img src={logo} alt="App-logo" />
+            </Link>
           </div>
         </div>
       </div>
