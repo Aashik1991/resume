@@ -1,4 +1,4 @@
-.footer{
+.footer {
     width: 100vw;
     background-color: #000000;
     height: 50vh;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.footer .navigation{
+.footer .navigation {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -16,68 +16,83 @@
     gap: 7vw;
 }
 
-.footer .navigation > *{
+.footer .navigation>* {
     width: 200px;
 }
 
-.footer .navigation .left{
+.footer .navigation .left {
     display: flex;
     justify-content: flex-start;
     gap: 25px;
 }
 
-.footer .navigation .left a{
+.footer .navigation .left a {
     text-decoration: none;
     color: white;
-    font-size: 1rem;
 }
 
-.footer .navigation .center{
+.footer .navigation .center {
     text-align: center;
 }
 
-.footer .navigation .center .email{
+.footer .navigation .center .email {
     margin-bottom: 30px;
 }
 
-.footer .navigation .right{
+.footer .navigation .right {
     display: flex;
     justify-content: flex-end;
 }
 
-.footer .navigation .right .logo{
+.footer .navigation .right .logo {
     height: 80px;
     width: 80px;
 }
 
-.footer .navigation .right .logo img{
+.footer .navigation .right .logo img {
     height: 100%;
     width: 100%;
 }
 
+@media screen and (max-width:900px) {
+    .footer .navigation>* {
+        width: 180px;
+    }
+
+    .footer .navigation .left {
+        gap: 20px;
+    }
+
+    .footer .navigation .right .logo {
+        height: 60px;
+        width: 60px;
+    }
+}
+
 @media screen and (max-width:480px) {
-    .footer .navigation > *{
+    .footer .navigation>* {
         width: 100%;
     }
 
-    .footer .navigation .left{
+    .footer .navigation .left {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer .navigation {
         justify-content: center;
     }
 
-    .footer .navigation{
-        justify-content: center;
-    }
-
-    .footer .navigation .center .email{
+    .footer .navigation .center .email {
         margin-bottom: 15px;
     }
 
-    .footer .navigation .right{
+    .footer .navigation .right {
         justify-content: center;
     }
 
-    .footer .navigation .right .logo{
-        height: 60px;
-        width: 60px;
+    .footer .navigation .right .logo {
+        height: 40px;
+        width: 40px;
     }
 }

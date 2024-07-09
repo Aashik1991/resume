@@ -13,7 +13,7 @@ const Projects = () => {
         </div>
       </section>
       <section className='second-section'>
-        <div className="third">
+        <div className="projects">
           <div className="cards">
             <div className="card"></div>
             <div className="card"></div>

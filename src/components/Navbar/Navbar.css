@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
     .navbar .left .logo {
         height: 60px;
         width: 60px;
@@ -50,5 +50,20 @@
 
     .navbar .right .menu-bar i {
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar .left .logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .navbar .right .menu-bar {
+        width: 40px;
+    }
+
+    .navbar .right .menu-bar i {
+        font-size: 2rem;
     }
 }

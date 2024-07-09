@@ -19,75 +19,156 @@
 }
 
 .first-section .center h1,
-.first-section .center h2{
+.first-section .center h2 {
     text-align: center;
 }
 
-.second-section .first,
-.second-section .second{
+.second-section .info,
+.second-section .skills {
     max-width: 50%;
 }
 
-.second-section > * {
+.second-section>* {
     margin: 7vw auto;
 }
 
-.second-section .first h3,
-.second-section .second h3{
+.second-section .info h3,
+.second-section .skills h3 {
     font-size: 2rem;
 }
 
-.second-section .first p,
-.second-section .second .grid{
+.second-section .info p {
     text-align: justify;
 }
 
-.second-section .third{
+.second-section .skills .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.second-section .skills .skill {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section .skills .skill img {
+    height: 50px;
+}
+
+.second-section .skills .skill span {
+    font-weight: 500;
+}
+
+.second-section .projects {
     display: flex;
     width: 85%;
     flex-direction: column;
     gap: 7vw;
 }
 
-.second-section .third .cards{
+.second-section .projects .cards {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     gap: 7vw;
 }
 
-.cards .card{
+.cards .card {
     height: 350px;
     width: 250px;
     background-color: rgb(0, 0, 0);
 }
 
-.second-section .third .btns{
+.second-section .projects .btns {
     display: flex;
     justify-content: center;
     gap: 10vh;
 }
 
-.third .btns .btn{
+.projects .btns .btn {
     height: 50px;
     width: 200px;
 }
 
-.third .btns .btn button{
+.projects .btns .btn button {
     background-color: rgb(194, 192, 192);
     border: none;
     height: 100%;
     width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width:900px) {
+    .first-section .center h1 {
+        font-size: 4rem;
+    }
+
+    .first-section .center h2 {
+        font-size: 1.5rem;
+    }
+
+    .second-section .info h3,
+    .second-section .skills h3 {
+        font-size: 1.5rem;
+    }
+
+    .second-section .skills .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projects .btns .btn {
+        height: 40px;
+        width: 180px;
+    }
+
+    .projects .btns .btn button {
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width:480px) {
-    .second-section .first,
-    .second-section .second{
+    .first-section .center h1 {
+        font-size: 3rem;
+    }
+
+    .first-section .center h2 {
+        font-size: 1rem;
+    }
+
+    .second-section .info,
+    .second-section .skills {
         max-width: 85%;
     }
 
-    .cards .card{
+    .second-section .info h3,
+    .second-section .skills h3 {
+        font-size: 1rem;
+    }
+
+    .second-section .skills .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards .card {
         width: 100%;
         height: 550px;
+    }
+
+    .second-section .projects .btns {
+        justify-content: space-between;
+    }
+
+    .projects .btns .btn {
+        height: 35px;
+        width: 160px;
+    }
+
+    .projects .btns .btn button {
+        font-size: 0.8rem;
     }
 }
