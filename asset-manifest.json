@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.d01654eb.css",
-    "main.js": "/static/js/main.c530d360.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/GitHub.png": "/static/media/GitHub.05525cd9027955dbe054.png",
-    "static/media/css.jpg": "/static/media/css.ac41873b6b95e435266a.jpg",
-    "static/media/postman-icon.svg": "/static/media/postman-icon.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
-    "static/media/js-logo.jpg": "/static/media/js-logo.e5ce2eaff7c6432ee7c7.jpg",
-    "static/media/git.jpg": "/static/media/git.2814f7522e21c45d8578.jpg",
-    "static/media/nodejs.svg": "/static/media/nodejs.6b9a3e4637692a75867604a712360fda.svg",
-    "index.html": "/index.html",
-    "main.d01654eb.css.map": "/static/css/main.d01654eb.css.map",
-    "main.c530d360.js.map": "/static/js/main.c530d360.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/resume/static/css/main.d01654eb.css",
+    "main.js": "/resume/static/js/main.e71b70a5.js",
+    "static/js/453.1407b060.chunk.js": "/resume/static/js/453.1407b060.chunk.js",
+    "static/media/GitHub.png": "/resume/static/media/GitHub.05525cd9027955dbe054.png",
+    "static/media/css.jpg": "/resume/static/media/css.ac41873b6b95e435266a.jpg",
+    "static/media/postman-icon.svg": "/resume/static/media/postman-icon.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
+    "static/media/js-logo.jpg": "/resume/static/media/js-logo.e5ce2eaff7c6432ee7c7.jpg",
+    "static/media/git.jpg": "/resume/static/media/git.2814f7522e21c45d8578.jpg",
+    "static/media/nodejs.svg": "/resume/static/media/nodejs.6b9a3e4637692a75867604a712360fda.svg",
+    "index.html": "/resume/index.html",
+    "main.d01654eb.css.map": "/resume/static/css/main.d01654eb.css.map",
+    "main.e71b70a5.js.map": "/resume/static/js/main.e71b70a5.js.map",
+    "453.1407b060.chunk.js.map": "/resume/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d01654eb.css",
-    "static/js/main.c530d360.js"
+    "static/js/main.e71b70a5.js"
   ]
 }
