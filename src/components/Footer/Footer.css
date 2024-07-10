@@ -59,6 +59,10 @@
         width: 180px;
     }
 
+    .footer .navigation *{
+        font-size: 0.9rem;
+    }
+
     .footer .navigation .left {
         gap: 20px;
     }
@@ -74,9 +78,12 @@
         width: 100%;
     }
 
+    .footer .navigation *{
+        font-size: 0.8rem;
+    }
+
     .footer .navigation .left {
         justify-content: center;
-        gap: 20px;
     }
 
     .footer .navigation {

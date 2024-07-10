@@ -20,16 +20,16 @@ const Home = () => {
         <div className="skills">
           <h3>My Skills</h3>
           <div className="grid">
-            <div className="skill"><img src={logos.js} alt="skill image" /><span>JavaScript</span></div>
-            <div className="skill"><img src={logos.mongoDB} alt="skill image" /><span>MongoDB</span></div>
-            <div className="skill"><img src={logos.express} alt="skill image" /><span>ExpressJs</span></div>
-            <div className="skill"><img src={logos.react} alt="skill image" /><span>ReactJs</span></div>
-            <div className="skill"><img src={logos.nodejs} alt="skill image" /><span>NodeJs</span></div>
-            <div className="skill"><img src={logos.postman} alt="skill image" /><span>Postman API</span></div>
-            <div className="skill"><img src={logos.git} alt="skill image" /><span>Git</span></div>
-            <div className="skill"><img src={logos.GitHub} alt="skill image" /><span>GitHub</span></div>
-            <div className="skill"><img src={logos.html} alt="skill image" /><span>HTML</span></div>
-            <div className="skill"><img src={logos.css} alt="skill image" /><span>CSS</span></div>
+            <div className="skill"><img src={logos.js} alt="js-logo" /><span>JavaScript</span></div>
+            <div className="skill"><img src={logos.mongoDB} alt="mongoDB-logo" /><span>MongoDB</span></div>
+            <div className="skill"><img src={logos.express} alt="express-logo" /><span>ExpressJs</span></div>
+            <div className="skill"><img src={logos.react} alt="react-logo" /><span>ReactJs</span></div>
+            <div className="skill"><img src={logos.nodejs} alt="nodejs-logo" /><span>NodeJs</span></div>
+            <div className="skill"><img src={logos.postman} alt="postman-logo" /><span>Postman API</span></div>
+            <div className="skill"><img src={logos.git} alt="git-logo" /><span>Git</span></div>
+            <div className="skill"><img src={logos.GitHub} alt="github-logo" /><span>GitHub</span></div>
+            <div className="skill"><img src={logos.html} alt="html-logo" /><span>HTML</span></div>
+            <div className="skill"><img src={logos.css} alt="css-logo" /><span>CSS</span></div>
           </div>
         </div>
         <div className="projects">
@@ -39,8 +39,16 @@ const Home = () => {
             <div className="card"></div>
           </div>
           <div className="btns">
-            <div className="btn"><button>All Projects</button></div>
-            <div className="btn"><button>Contact Me</button></div>
+            <div className="btn">
+              <button>
+                <i className="fa-solid fa-arrow-right"></i>All Projects
+              </button>
+            </div>
+            <div className="btn">
+              <button>
+                <i className="fa-solid fa-arrow-right"></i>Contact Me
+              </button>
+            </div>
           </div>
         </div>
       </section>

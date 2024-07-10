@@ -19,9 +19,9 @@ const About = () => {
         </div>
         <div className="info">
           <h3>My Hobbies and Interests</h3>
-          <div className="grid">
+          <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque perferendis ducimus eum rerum. Illum, quia similique nihil nemo veniam adipisci debitis cumque, velit iste minima laboriosam eligendi necessitatibus. Consectetur, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias rem voluptatem dicta magnam reiciendis, iure consequuntur, recusandae numquam quibusdam debitis ea asperiores laboriosam reprehenderit ex assumenda corrupti. Enim quos sint odit numquam animi libero obcaecati, quod, sunt rerum ea distinctio, deleniti sit voluptatibus. Nihil assumenda, recusandae facere modi culpa tenetur aspernatur laborum error sunt cum! Amet recusandae dolor magni nesciunt sequi distinctio, aperiam doloribus, obcaecati iste veritatis nemo et deleniti beatae. Quae obcaecati maiores et consequuntur voluptatem assumenda odio eum.
-          </div>
+          </p>
         </div>
       </section>
       <Footer />

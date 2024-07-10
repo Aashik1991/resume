@@ -23,8 +23,16 @@ const Projects = () => {
             <div className="card"></div>
           </div>
           <div className="btns">
-            <div className="btn"><button>All Projects</button></div>
-            <div className="btn"><button>Contact Me</button></div>
+            <div className="btn">
+              <button>
+                <i className="fa-solid fa-arrow-right"></i>All Projects
+              </button>
+            </div>
+            <div className="btn">
+              <button>
+                <i className="fa-solid fa-arrow-right"></i>Contact Me
+              </button>
+            </div>
           </div>
         </div>
       </section>

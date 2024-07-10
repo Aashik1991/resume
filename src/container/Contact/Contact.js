@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
+import "./contact.css"
 
 const Contact = () => {
   return (
@@ -13,13 +14,31 @@ const Contact = () => {
         </div>
       </section>
       <section className='second-section'>
-        <div className="info">
+        <div className="contact">
           <h3>Contact Me</h3>
-          <div className='grid'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, harum delectus unde, tempore itaque quo est esse sapiente fugiat iure suscipit praesentium. Quia odio repudiandae pariatur quibusdam consequatur ad atque magnam facere placeat animi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias magnam, omnis expedita est eius nobis vitae nostrum quos soluta doloribus non facilis, qui dolore ratione dignissimos perspiciatis laborum officia ut corrupti ab dolorum. Quidem quas totam reiciendis molestiae assumenda magni minus doloremque obcaecati fugiat, sequi ipsa. Mollitia, cupiditate vel. Facilis?</div>
+          <div className='grid'>
+            <div className='grid-item'>
+              <div>Name</div>
+              <input type="text" placeholder='Your Name' />
+            </div>
+            <div className='grid-item'>
+              <div>E-mail</div>
+              <input type="text" placeholder='email@example.com' />
+            </div>
+            <div className='grid-item query'>
+              <div>Query</div>
+              <input type="text" placeholder='Ask Your Question here' />
+            </div>
+          </div>
+          <div className="btn">
+            <button>
+              <i className="fa-solid fa-arrow-right"></i>Send Message
+            </button>
+          </div>
         </div>
       </section>
       <Footer />
-      
+
     </main>
   )
 }
