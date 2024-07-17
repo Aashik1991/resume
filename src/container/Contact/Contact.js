@@ -1,13 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import "./contact.css"
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0 , 0);
+  })
   return (
     <main>
-      <Navbar />
       <section className='first-section'>
+      <Navbar />
         <div className="center">
           <h1>CONTACT ME</h1>
           <h2>HAVE SOME QUERY?</h2>

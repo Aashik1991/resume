@@ -1,12 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import logos from '../../logos';
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0 , 0);
+  })
   return (
     <main>
-      <Navbar />
       <section className='first-section'>
+      <Navbar />
         <div className="center">
           <h1>ASHIK ANSARI</h1>
           <h2>WEB - DEVELOPER</h2>

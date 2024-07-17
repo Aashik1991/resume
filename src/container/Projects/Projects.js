@@ -1,12 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0 , 0);
+  })
   return (
     <main>
-      <Navbar />
       <section className='first-section'>
+      <Navbar />
         <div className="center">
           <h1>MY PROJECTS</h1>
           <h2>MADE WITH PASSION</h2>
