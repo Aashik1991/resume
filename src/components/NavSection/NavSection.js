@@ -1,11 +1,11 @@
-import React, {useContext} from 'react'
+import React, { useContext } from 'react'
 import "./NavSection.css"
 import { Link } from 'react-router-dom';
 import { MyContext } from '../../context/context';
 
 const NavSection = () => {
-    const {menuToggle, setMenuToggle} = useContext(MyContext)
-    const handleClick = ()=>{
+    const { menuToggle, setMenuToggle } = useContext(MyContext)
+    const handleClick = () => {
         setMenuToggle(!menuToggle)
     }
     return (
@@ -20,14 +20,12 @@ const NavSection = () => {
                 </ul>
             </aside>
             <aside className='aside second-aside'>
-                <div>
-                    <div className="text email">9779540915aashik@gmail.com</div>
-                    <div className="text phone">+91-9779540915</div>
-                    <div className="social">
-                        <Link to=""><i className="fa-brands fa-instagram"></i></Link>
-                        <Link to=""><i className="fa-brands fa-linkedin"></i></Link>
-                        <Link to=""><i className="fa-brands fa-square-facebook"></i></Link>
-                    </div>
+                <div className="text email">9779540915aashik@gmail.com</div>
+                <div className="text phone">+91-9779540915</div>
+                <div className="social">
+                    <Link to=""><i className="fa-brands fa-instagram"></i></Link>
+                    <Link to=""><i className="fa-brands fa-linkedin"></i></Link>
+                    <Link to=""><i className="fa-brands fa-square-facebook"></i></Link>
                 </div>
             </aside>
         </section>

@@ -1,17 +1,17 @@
-.nav-section{
+.nav-section {
     height: 100vh;
     width: 100vw;
     background-color: white;
     position: absolute;
     z-index: 10;
     border-bottom: 2px solid black;
-    /* display: none; */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.nav-section .cancel{
+.nav-section .cancel {
     width: 85%;
     text-align: right;
     position: absolute;
@@ -21,55 +21,111 @@
     padding-right: 22px;
 }
 
-.nav-section .cancel i{
+.nav-section .cancel i {
     font-size: 3rem;
 }
 
-.nav-section .cancel i:hover{
+.nav-section .cancel i:hover {
     cursor: pointer;
 }
 
-.nav-section .aside{
-    height: 40%;
-    width: 40%;
+.nav-section .aside {
+    height: 300px;
+    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
+    align-items: start;
 }
 
-.nav-section .first-aside li{
+.nav-section .first-aside li {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: bolder;
 }
 
-.nav-section .first-aside ul li{
+.nav-section .first-aside ul li {
     list-style: none;
 }
 
-.nav-section .second-aside > div{
+.nav-section .second-aside {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.nav-section .second-aside .text{
+.nav-section .second-aside .text {
     font-size: 1.5rem;
     font-weight: bolder;
 }
 
-.nav-section .second-aside .social{
+.nav-section .second-aside .social {
     padding-bottom: 7px;
 }
 
-.nav-section .second-aside .social i{
+.nav-section .second-aside .social i {
     font-size: 1.5rem;
     margin: 0 10px;
     cursor: pointer;
 }
 
-.nav-section a{
+.nav-section a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width : 900px) {
+
+    .nav-section .cancel {
+        padding-right: 15px;
+    }
+
+    .nav-section .cancel i {
+        font-size: 2.5rem;
+    }
+
+    .nav-section .aside {
+        height: 180px;
+    }
+
+    .nav-section .first-aside li {
+        font-size: 2.2rem;
+    }
+
+    .nav-section .second-aside {
+        gap: 10px;
+    }
+
+    .nav-section .second-aside .text {
+        font-size: 1rem;
+    }
+
+    .nav-section .second-aside .social i {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .nav-section{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 480px) {
+
+    .nav-section .cancel {
+        padding-right: 8px;
+    }
+
+    .nav-section .second-aside {
+        gap: 7px;
+    }
+
+    .nav-section .aside{
+        width: 80%;
+    }
+
+    .nav-section .cancel i {
+        font-size: 2rem;
+    }
 }
